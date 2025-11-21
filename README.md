@@ -1,0 +1,2 @@
+# Soil-and-genotype-driven-root-exudation-patterns-in-barley-faba-bean-potato-and-sweet-potato
+This study aimed to assess how soil type and genotype influence root exudation in major and emerging European crops and to explore how root morphology and plant growth are related to exudation. Four genotypes each of barley, faba bean, potato ,and sweet potato were grown in three distinct European soils.  

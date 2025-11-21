@@ -11,10 +11,9 @@ library(outliers)
 library(openxlsx)     # For saving to Excel
 
 # Load the data
-setwd("~/Root2Res/R2R - Results/R_with_Carmen")
-setwd ("C:/Users/Henning/Documents/Root2Res/R2R - Results/R_with_Carmen/all_data")
+setwd()
 getwd()
-df <- read.delim("all_data.txt", sep = "\t")
+df <- read.delim()
 str(df)
 
 # Function to detect outliers in a single variable
@@ -81,4 +80,5 @@ ggplot(df[df$Crop == "Faba_bean", ], aes(x = factor(Sample_ID), y = RTD)) +
   labs(title = "Outlier Detection", x = "Sample ID", y = "R:S") +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))  # Rotate x-axis labels for readability
+
 

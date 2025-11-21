@@ -35,8 +35,8 @@ devtools::install_github("pmartinezarbizu/pairwiseAdonis/pairwiseAdonis", force 
 
 
 # Load the data
-setwd("~/Root2Res/R2R - Results/R_with_Carmen")
-setwd ("C:/Users/Henning/Documents/Root2Res/R2R - Results/R_with_Carmen/all_data")
+setwd()
+setwd ()
 getwd()
 df <- read.delim("permanova_exudates_root_traits.txt", sep = "\t")
 str(df)
@@ -859,4 +859,5 @@ plot(betadisper_genotype)
 
 # PERMANOVA 
 adonis2(dist_matrix ~ Soil*Genotype, data=categorical_data_SP, permutations=999)
+
 

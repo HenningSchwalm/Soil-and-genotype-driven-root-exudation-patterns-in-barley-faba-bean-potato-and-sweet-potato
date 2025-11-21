@@ -4,4 +4,4 @@ This study aimed to assess how soil type and genotype influence root exudation i
 This repository contains scripts which are functional but not fully optimized or thoroughly tested, and substantial modifications may occur in future updates. Some features may be incomplete or unstable.
 
 Please note that all source file paths and directory locations in the scripts must be individually adapted by each user to match their own system and data structure. The code will not run correctly without adjusting these paths. Data 
-Feedback and contributions are welcome, but please use the current version with caution. Data available at Zenedo.org and upon request. 
+Feedback and contributions are welcome, but please use the current version with caution. Datasets (entire matrix and for each crop) available at Zenedo.org (10.5281/zenodo.17670462) and upon request. 

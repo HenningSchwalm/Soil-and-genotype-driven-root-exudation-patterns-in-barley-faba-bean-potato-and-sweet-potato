@@ -33,26 +33,26 @@ library(FactoMineR)
 ##load all the R2R WP2 data
 
 #Barley
-setwd("~/Root2Res/R2R - Results/R_with_Carmen")
-setwd ("C:/Users/Henning/Documents/Root2Res/R2R - Results/R_with_Carmen/Barley_biomass")
+setwd()
+setwd ()
 getwd()
 barley_biomass <- read.delim("Barley_biomass.txt", sep = "\t")
 head(barley_biomass)
 
 #Faba
-setwd ("C:/Users/Henning/Documents/Root2Res/R2R - Results/Barley/R_with_Carmen/Faba_biomass")
+setwd ()
 getwd()
 Faba_biomass <- read.delim("Faba_biomass.txt", sep = "\t")
 Faba_biomass_no_planet = subset(Faba_biomass, !Genotype == "Planet")
 
 #Potato
-setwd ("C:/Users/Henning/Documents/Root2Res/R2R - Results/Barley/R_with_Carmen/Potato_biomass")
+setwd ()
 getwd()
 Potato_biomass <- read.delim("Potato_biomass.txt", sep = "\t")
 Potato_biomass_no_planet = subset(Potato_biomass, !Genotype == "Planet")
 
 #Sweet Potato 
-setwd ("C:/Users/Henning/Documents/Root2Res/R2R - Results/Barley/R_with_Carmen/SP_biomass")
+setwd ()
 getwd()
 SP_biomass <- read.delim("SP_biomass.txt", sep = "\t")
 SP_biomass_no_planet = subset(SP_biomass, !Genotype == "Planet")
@@ -715,3 +715,4 @@ if(length(ellipse_layer_index) > 0){
 }
 
 print(biplot_SP)
+
